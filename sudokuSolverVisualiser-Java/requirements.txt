@@ -1,0 +1,23 @@
+# Python Dependencies for Sudoku Solver Visualiser
+# Install using: pip install -r requirements.txt
+
+# GUI Framework (choose one based on implementation)
+# tkinter is built-in with Python, but listed here for reference
+# pygame - For more advanced visualizations and animations
+pygame>=2.5.0
+
+# Alternative GUI frameworks (uncomment if needed)
+# PyQt5>=5.15.0
+# kivy>=2.2.0
+
+# Utility libraries
+numpy>=1.24.0  # For array operations and grid manipulation
+Pillow>=10.0.0  # For image handling (if needed for puzzle loading)
+
+# Optional: For generating random puzzles
+random2>=1.0.1  # Enhanced random utilities (though random is built-in)
+
+# Development tools (optional)
+# pytest>=7.4.0  # For testing
+# black>=23.0.0  # Code formatting
+
